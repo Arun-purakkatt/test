@@ -3,7 +3,7 @@ name: First Workflow
 on: push                                                  
 jobs:                         
   first-job:                           
-    name: Say hi                           
+    name: Say hi hello                         
     runs-on: ubuntu-latest                           
     steps:                           
     - name: Print a greeting                             
